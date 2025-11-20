@@ -1,0 +1,204 @@
+
+.open-sans-normal {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+/* navigation style */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(59, 120, 136, 0.973);
+}
+.nav-tittle{
+    font-size: 45px;
+    font-weight: 800;
+    margin-left: 50px;
+}
+nav ul li{
+    list-style: none;
+}
+nav li a{
+    text-decoration: none;
+    color: rgb(5, 33, 34);
+    font-weight: 700;
+    margin-right: 50px;
+}
+/* individual letter colour  */
+.indi-colour{
+    color: firebrick;
+}
+.unlisted{
+    display: flex;
+    align-items: center;  
+}
+.buttonfa{
+    background-color: aqua;
+    font-weight: 700;
+    font-size: 20px;
+    padding: 18px 35px;
+    border-radius: 5px;
+    border:none;
+
+}
+/* All styles about bannner */
+.banner{
+    display: flex;
+    justify-content: space-between;
+    background-image: url('../images/icons/WhatsApp\ Image\ 2025-11-16\ at\ 02.11.11_3fb23715.jpg');
+}
+.image-sizer{
+    width: 300px;
+}
+.banner-profile-holder{
+    color: bisque;
+}
+.firsth{
+    text-align: center;
+    margin-left: 300px;
+}
+.firstp{
+   text-align: center;
+   margin-left: 230px;
+}
+.buttonfah{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-left: 240px;
+}
+.bifo2{
+    margin-left: 10px;
+    background-color: red;
+    padding: 5px;
+    border: none;
+    border-radius: 2px;
+}
+.bifo1{
+    background-color: red;
+      padding: 5px;
+        border: none;
+    border-radius: 2px;
+
+}
+
+.about{
+    background-color:rgb(218, 206, 206);;
+    text-align: center;
+    padding: 130px 150px;
+    border-radius: 10px;
+    margin-top: 100px;
+    
+    box-shadow: 0px 6px 50px 0px rgb(160, 159, 157);
+}  
+
+.item-tittle{
+    font-weight: 600;
+}
+.about-items{
+    display: flex;
+    justify-content: space-around;
+}
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.skills2{
+    text-align: center;
+    padding:15px;
+    margin-top: 50px;
+   
+}
+.skills-container{
+    display: flex;
+   gap: 20px;
+   border: 2px salmon;
+   padding: 30px;
+
+}
+.skill-card img{
+  width: 30px;
+  height: 30px;
+
+
+}
+.skill-card{
+    background-color: rgb(218, 206, 206);
+    padding: 5px;
+    border-radius: 5px;
+    font-size: .8em;
+    
+    box-shadow: 0px 6px 50px 0px rgb(160, 159, 157);
+}
+.contact a img{
+    width: 20px;
+    height: 20px;
+   
+}
+a{
+    margin-right: 8px;
+}
+footer{
+    display: flex;
+    background-color: rgb(235, 227, 227);
+}
+.footer-coloumn{
+    margin: 50px;
+    width: 50%;
+}
+.footer-coloumn2{
+    margin: 50px 200px 50px 100px;
+     display: flex;
+     flex-direction: column;
+     width: 50%
+   
+}
+.one{
+    margin-bottom: 10px;
+}
+
+footer input[type="text"]{
+    width: 100%;
+    height: 30px;
+    background-color: aliceblue;
+    border-radius: 5px;
+    border: none;
+}
+footer input[type="email"]{
+    width: 100%;
+    height: 30px;
+    background-color: aliceblue;
+    border-radius: 5px;
+    border: none;
+}
+footer textarea{
+      width: 100%;
+    height: 30px;
+    background-color: aliceblue;
+    border-radius: 5px;
+    border: none;
+}
+@media screen and (max-width:576px){
+ .skills-container{
+    flex-direction: column;
+ }
+ footer{
+    flex-direction: column;
+ }
+ .footer-coloumn2,.footer-coloumn{
+    margin: 20px;
+    width: 90%;
+ }
+ .about{
+    margin:20px;
+    padding: 5px;
+ }
+ .about-items{
+    flex-direction: column;
+ }
+}
+    
+
